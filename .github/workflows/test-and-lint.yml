@@ -4,7 +4,7 @@ on:
   workflow_call:
     secrets:
       DOCKERHUB_USER: ${{ vars.DOCKERHUB_USER }}
-        requited: true
+        required: true
         description: "Username for DockerHub auth"
       DOCKERHUB_TOKEN: ${{ vars.DOCKERHUB_TOKEN }}
         required: true
